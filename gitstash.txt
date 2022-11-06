@@ -3,3 +3,14 @@ first commit
 updated text 
 
 add new feat 
+
+
+/////Commands//////////
+
+git stash:
+pop {index}- bring back save and deletes save
+apply {index}- brings back  save, wont delete 
+list - show all saves with indexes and messages
+push -m "..." - adds a message
+clear - deletes all saves
+drop {index} - deletes the (last) save
