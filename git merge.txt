@@ -1,5 +1,9 @@
-Commands
+Commands 
 
-git merge - merges all commits without new commit on master
+fast forward (no commit in master , no merge commit created usualy)
+git merge - merges all commits without new merged commit on master
 
 git merge --squash  - merges all commits into one , have to create new commit on master
+
+recursive merge (commits are in master)
+merge --no-ff  -forces to use recursive strategy (merge commit is created)
