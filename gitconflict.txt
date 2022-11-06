@@ -1,0 +1,5 @@
+commadns
+
+git log --merge  - shows compered commits
+
+git diff - details
