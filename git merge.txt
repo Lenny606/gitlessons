@@ -1,0 +1,5 @@
+Commands
+
+git merge - merges all commits without new commit on master
+
+git merge --squash  - merges all commits into one , have to create new commit on master
