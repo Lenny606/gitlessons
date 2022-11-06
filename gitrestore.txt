@@ -1,0 +1,9 @@
+Commands for restore deleted branch or commit
+
+git reflog - show all commits in last 30days with indexes
+
+git reset --hard {index}  - returns deleted commit
+
+git checkout {index}  - creates detached head of deleted branch , then crate a new branch from this head
+
+git branch -D {name} - forced deletion
