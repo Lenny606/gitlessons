@@ -1,1 +1,6 @@
  new import feat
+
+ commands 
+
+ git cherry-pick {index} - merges only one commit
+ 
