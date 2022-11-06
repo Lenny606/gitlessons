@@ -1,0 +1,7 @@
+commands
+
+git tag - shows all tags
+git tag {tag name} {index} - saves tag into commit
+git tag -a {tag name} -m"..." - saves annotered tag into last commit
+git show {tag name} 
+git tag -d {tag name} - deletes
