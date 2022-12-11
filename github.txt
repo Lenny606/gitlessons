@@ -12,3 +12,5 @@ git ls-remote // show remote branches
 git fetch {name}//updates only remote tracking branch
 
 git remote show origin //configuration
+
+git push origin -d branch-name //delete remote branch, not local 
