@@ -1,0 +1,14 @@
+connect local to remote repository:
+
+git remote add origin URL
+
+remote ,,tracking,, branch is a connection between local and remote!!! it is local copy of remote branch, not for editing 
+
+local ,,tracking,, branch is local reference to remote tracking branch, for editing
+
+git branch -a //shows remote/ local,,tracking,, branches too
+git branch -r // shows remote tracking branch
+git ls-remote // show remote branches
+git fetch {name}//updates only remote tracking branch
+
+git remote show origin //configuration
